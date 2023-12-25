@@ -1,7 +1,12 @@
-html, body {
-    height: 100vh;
+:root{
+    --white: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap');
+body{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
 }
 
 .flex{
@@ -9,10 +14,63 @@ html, body {
 }
 
 .center-center{
+    justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.gap-1{
+    gap: 1em;
+}
+.main-container {
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .width-90{
     width: 90%;
+    height: 90%;
+    
+}
+
+.upper{
+    
+    height: 45%;
+    width: 100%;
+
+}
+
+.upper-left-info{
+    background-color: blueviolet;
+    height: 100%;
+    width: 50%;
+}
+
+.degrees{
+    font-size: 50px;
+}
+
+.cloudy{
+    padding-top: 9px;
+}
+
+.upper-inner-half{
+    padding-top: 9px;
+}
+.upper-right-icon{
+    background-color: pink;
+    height: 100%;
+    width: 50%;
+}
+
+
+.circle{
+    background-color: #eeeeee;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
 }
