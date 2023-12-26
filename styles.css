@@ -18,6 +18,10 @@ body{
     align-items: center;
 }
 
+.center{
+    justify-content: center; 
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -67,10 +71,50 @@ body{
 .lower{
     height: 40%;
     background-color: #e7e5e538;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.often{
+    background-color: #f1f1f138;
+    padding: 15px;
+    height: 69px;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
 
 .often-div{
-    background-color: #f1f1f138;
+    height: 30px;
+    width: 150px;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: small;
+}
+
+.hourly{
+    background-color: #251a54;
+}
+
+.each-hour{
+    background-color: #251a54;
+    border-radius: 12px;
+    width: 58px;
+    height: 113px;
+    margin-top: 25px;
+}
+.daily{
+    background-color: #fff;
+    color: #251a54;
+    
+}
+
+.lower-img{
+    width: 48px;
+    height: 43px;
+    background-image: url(./images/cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .circle{
     background-color: #eeeeee;
@@ -81,4 +125,6 @@ body{
 
 .nav{
     height: 15%;
+    padding: 15px;
+    box-sizing: border-box;
 }
