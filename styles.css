@@ -38,16 +38,13 @@ body{
 }
 
 .upper{
-    
     height: 45%;
     width: 100%;
-
 }
 
 .upper-left-info{
-    background-color: blueviolet;
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 .degrees{
@@ -64,13 +61,24 @@ body{
 .upper-right-icon{
     background-color: pink;
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
 
+.lower{
+    height: 40%;
+    background-color: #e7e5e538;
+}
 
+.often-div{
+    background-color: #f1f1f138;
+}
 .circle{
     background-color: #eeeeee;
     border-radius: 50%;
     width: 35px;
     height: 35px;
+}
+
+.nav{
+    height: 15%;
 }
