@@ -22,12 +22,21 @@ body{
     justify-content: center; 
 }
 
+.center2{
+    align-items: center; 
+}
+
 .space-between{
     justify-content: space-between;
 }
 .gap-1{
     gap: 1em;
 }
+
+.gap-34{
+    gap: 34em;
+}
+
 .main-container {
     height: 100vh;
     background-image: url(./images/bg.jpg);
@@ -117,10 +126,10 @@ body{
     background-repeat: no-repeat;
 }
 .circle{
-    background-color: #eeeeee;
+    background-color: #eeeeee33;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 
 .nav{
