@@ -72,9 +72,14 @@ body{
     padding-top: 9px;
 }
 .upper-right-icon{
-    background-color: pink;
     height: 100%;
     width: 60%;
+    
+}
+
+.upper-right-img{
+    height: 100%;
+    width: 100%;
 }
 
 .lower{
